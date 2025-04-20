@@ -18,19 +18,19 @@ A smart classroom tool for analyzing student engagement through facial attendanc
 
 ## 📂 Project Structure
 
-student_attention_analyser/ \ 
-├── yolov5/ # YOLOv5 cloned repository 
-├── dataset/ # Label definitions for hand raise detection 
-├── evaluation/ #contains evaluation of model and some extra files used for image pre-processing and manipulation
-├── hand_raise_detector_valid/ #trained yolov5 instance
-├── ImagesAttendance/ #student image dataset for attendance 
-├── attendance_log.csv/
-├── hand_raise_log.csv/
-├── test.py # Script for testing model accuracy or demoing 
-├── student_detection.py # Main application for face detection + attendance 
-├── tracker.py # Analyzes hand raises and generates insight reports 
-├── requirements.txt # Required Python packages 
-└── README.md
+student_attention_analyser/ <br>
+├── yolov5/ # YOLOv5 cloned repository <br>
+├── dataset/ # Label definitions for hand raise detection <br>
+├── evaluation/ #contains evaluation of model and some extra files used for image pre-processing and manipulation<br>
+├── hand_raise_detector_valid/ #trained yolov5 instance<br>
+├── ImagesAttendance/ #student image dataset for attendance <br>
+├── attendance_log.csv/<br>
+├── hand_raise_log.csv/<br>
+├── test.py # Script for testing model accuracy or demoing <br>
+├── student_detection.py # Main application for face detection + attendance <br>
+├── tracker.py # Analyzes hand raises and generates insight reports <br>
+├── requirements.txt # Required Python packages <br>
+└── README.md<br>
 
 ---
 
