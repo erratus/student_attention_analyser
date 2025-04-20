@@ -44,25 +44,33 @@ cd student_attention_analyser
 ```
 
 ### 2. Set Up the Environment
+```bash
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
-
+```
 ### 3. Clone YOLOv5
+```bash
 git clone https://github.com/ultralytics/yolov5.git
 cd yolov5
 pip install -r requirements.txt
 cd ..
-
+```
 ---
 
 ## ▶️ Usage
 ### Test the model
+```bash
 python test.py
+```
 ### Run face detection for attendance
+```bash
 python student_detection.py
+```
 ### Analyze hand-raise activity and generate visualizations
+```bash
 python tracker.py
+```
 ---
 
 ## 🧠 Model Details
