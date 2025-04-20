@@ -66,8 +66,8 @@ def process_dataset(images_folder, bboxes_folder, output_json):
 
 
 # Example usage
-images_folder = "D:/misc/langs/python/new/yolov5/dataset/images/train"
-bboxes_folder = "D:/misc/langs/python/new/yolov5/dataset/labels/train"
+images_folder = "./dataset/images/train"
+bboxes_folder = "./dataset/labels/train"
 output_json = "ground_truth.json"
 
 process_dataset(images_folder, bboxes_folder, output_json)

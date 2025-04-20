@@ -10,8 +10,8 @@ MODEL_PATH = "yolov5/runs/train/hand_raise_detector/weights/best.pt"  # Adjust p
 model = torch.hub.load('ultralytics/yolov5', 'custom', path=MODEL_PATH)
 
 # Paths
-GROUND_TRUTH_PATH = "D:/misc/langs/python/new/evaluation/ground_truth.json"  # JSON file containing ground truth annotations
-TEST_IMAGES_DIR = "D:/misc/langs/python/new/yolov5/dataset/images/train"  # Directory containing test images
+GROUND_TRUTH_PATH = "ground_truth.json"  # JSON file containing ground truth annotations
+TEST_IMAGES_DIR = "./dataset/images/train"  # Directory containing test images
 
 def load_ground_truth(file_path):
     with open(file_path, "r") as f:
