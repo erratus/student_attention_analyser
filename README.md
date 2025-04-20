@@ -18,7 +18,7 @@ A smart classroom tool for analyzing student engagement through facial attendanc
 
 ## 📂 Project Structure
 
-student_attention_analyser/\ 
+student_attention_analyser/ \ 
 ├── yolov5/ # YOLOv5 cloned repository 
 ├── dataset/ # Label definitions for hand raise detection 
 ├── evaluation/ #contains evaluation of model and some extra files used for image pre-processing and manipulation
